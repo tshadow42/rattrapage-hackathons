@@ -1,0 +1,25 @@
+.unstyle-list{
+    list-style: none;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #e9ecef;
+    border-bottom: #9eeaf9 solid 2px;
+}
+
+.modal-content{
+    border-radius: 15px;
+}
+
+.form-control{
+    border-radius: 20px;
+}
+
+.form-control::placeholder{
+    color: #ced4da;
+}
+
+.btn{
+    border-radius: 20px;
+}
