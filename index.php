@@ -24,7 +24,10 @@
                                 <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Liste hackatons </a>
+                                <a class="nav-link" href="#">Liste des hackatons </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mes hackatons </a>
                             </li>
                             <li class="nav-item dropdown ms-auto">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,9 +61,9 @@
                     </div>
                     <div class="modal-body">
                         <label for="login-email" class="form-label">Adresse email</label>
-                        <input type="email" class="form-control mb-3" id="login-email" placeholder="email">
+                        <input type="email" class="form-control mb-3" id="login-email" placeholder="email" required>
                         <label for="login-password" class="form-label">Mot de passe</label>
-                        <input type="password" class="form-control" id="login-password" placeholder="mot de passe">
+                        <input type="password" class="form-control" id="login-password" placeholder="mot de passe" required>
                     </div>
                     <div class="modal-footer">
                         <div class="btn-group flex-grow-1" role="group" aria-label="">
@@ -83,27 +86,27 @@
                         <div class="row">
                             <div class="col-6">
                                 <label for="register-lastname" class="form-label">Nom</label>
-                                <input type="text" class="form-control mb-3" id="register-lastname" placeholder="Nom">
+                                <input type="text" class="form-control mb-3" id="register-lastname" name="register-lastname" placeholder="Nom" required>
                             </div>
                             <div class="col-6">
                                 <label for="register-firstname" class="form-label">Prénom</label>
-                                <input type="text" class="form-control mb-3" id="register-firstname" placeholder="Prénom">
+                                <input type="text" class="form-control mb-3" id="register-firstname" name="register-firstname" placeholder="Prénom" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12">
                                 <label for="register-email" class="form-label">Adresse email</label>
-                                <input type="email" class="form-control mb-3" id="register-email" placeholder="Email">
+                                <input type="email" class="form-control mb-3" id="register-email" name="register-email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6">
                                 <label for="register-password" class="form-label">Mot de passe</label>
-                                <input type="password" class="form-control mb-3" id="register-password" placeholder="Mot de passe">
+                                <input type="password" class="form-control mb-3" id="register-password" name="register-password" placeholder="Mot de passe" required>
                             </div>
                             <div class="col-6">
                                 <label for="register-repeat-password" class="form-label">Répéter mot de passe</label>
-                                <input type="password" class="form-control" id="register-repeat-password" placeholder="Répéter mot de passe">
+                                <input type="password" class="form-control" id="register-repeat-password" name="register-repeat-password" placeholder="Répéter mot de passe" required>
                             </div>
                         </div>
                     </div>
