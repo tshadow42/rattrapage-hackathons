@@ -5,7 +5,7 @@
 
 .navbar{
     background-color: #e9ecef;
-    border-bottom: #9eeaf9 solid 2px;
+    border-bottom: #6ea8fe solid 2px;
 }
 
 .modal-content{
@@ -22,4 +22,11 @@
 
 .btn{
     border-radius: 20px;
+}
+
+.big-section{
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }

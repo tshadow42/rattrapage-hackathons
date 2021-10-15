@@ -4,8 +4,8 @@ function dbConnect() : PDO{
     $host = "localhost";
     $port = 3306;
     $db = "hackathon";
-    $user = "root";
-    $password = "";
+    $user = "ncharvier";
+    $password = "13072000";
 
     return new PDO("$driver:host=$host;port=$port;dbname=$db;charset=utf8", $user, $password);
 }
@@ -46,6 +46,7 @@ function dbFindAll(PDO $db, string $sql, array $params): ?array{
             }
         }
     }
+    return null;
 }
 
 function dbExec(PDO $db, string $sql, array $params): ?int{
